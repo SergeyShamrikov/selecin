@@ -11,7 +11,14 @@
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider {margin: 0 0 0px; position: relative; }
+.flexslider {
+	margin: 0 0 0px;
+	position: relative;
+	background:  url(../images/flexslider_bg.png) center 0 no-repeat;
+	z-index: 1;
+	margin-top: -240px;
+}
+.slides_it{min-height:906px;}
 .flex-viewport {}
 .loading .flex-viewport {max-height: 300px;}
 .flexslider .slides {zoom: 1;}
@@ -26,10 +33,32 @@
 .flex-direction-nav .disabled {cursor: default;}
 
 /* Control Nav */
-.flex-control-nav {width: 100%; position: absolute; bottom: 0px; text-align: center;}
+.flex-control-nav {width: 100%; position: absolute; bottom: 190px; text-align: center;}
 .flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
-.flex-control-paging li a {width: 11px; height: 11px; display: block; background: url('') repeat;cursor: pointer; text-indent: -9999px;}
-.flex-control-paging li a:hover, .flex-control-paging li a.flex-active{ background-position:0 0;}
+.flex-control-paging li a {
+	width: 16px; 
+	height: 16px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	display: block; 
+	background: url(../images/flex_nav.png) right 0 no-repeat;
+	cursor: pointer; 
+	text-indent: -9999px;
+	box-shadow: none;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.flex-control-paging li a:hover, .flex-control-paging li a.flex-active{
+	background-position:0 0;
+	box-shadow: 1px 1px 2px rgba(30,31,31,0.8);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
 
 .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
 .flex-control-thumbs li {width: 25%; float: left; margin: 0;}

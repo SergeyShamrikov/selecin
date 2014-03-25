@@ -1,1 +1,10 @@
 {behavior:url(js/PIE.htc);position:relative;}
+.box2_it{
+	padding-bottom: 10px;
+}
+.quote_box figure img{
+	border: none;
+}
+.list2{
+	width: 765px;
+}
