@@ -16,9 +16,9 @@
 	position: relative;
 	background:  url(../images/flexslider_bg.png) center 0 no-repeat;
 	z-index: 1;
-	margin-top: -240px;
+	margin-top: -256px;
 }
-.slides_it{min-height:906px;}
+.slides_it{min-height:896px;}
 .flex-viewport {}
 .loading .flex-viewport {max-height: 300px;}
 .flexslider .slides {zoom: 1;}
@@ -33,7 +33,7 @@
 .flex-direction-nav .disabled {cursor: default;}
 
 /* Control Nav */
-.flex-control-nav {width: 100%; position: absolute; bottom: 190px; text-align: center;}
+.flex-control-nav {width: 100%; position: absolute; bottom: 181px; text-align: center;}
 .flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
 .flex-control-paging li a {
 	width: 16px; 
