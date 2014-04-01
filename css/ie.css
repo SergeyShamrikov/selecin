@@ -8,3 +8,10 @@
 .list2{
 	width: 765px;
 }
+.list1{padding-bottom: 168px;}
+div[class^="description"]{
+	display: none;
+}
+[class^="steps_it"]:hover div[class^="description"]{
+	display: block;
+}
